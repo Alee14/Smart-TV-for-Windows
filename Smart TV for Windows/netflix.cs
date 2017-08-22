@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Smart_TV_for_Windows
 {
-    public partial class Form1 : Form
+    public partial class netflix : Form
     {
-        public Form1()
+        public netflix()
         {
             InitializeComponent();
         }
