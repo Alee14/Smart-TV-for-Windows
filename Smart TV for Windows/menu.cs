@@ -24,7 +24,8 @@ namespace Smart_TV_for_Windows
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            youtube f2 = new youtube();
+            f2.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -34,7 +35,8 @@ namespace Smart_TV_for_Windows
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            netflix f3 = new netflix();
+            f3.ShowDialog();
         }
     }
 }
